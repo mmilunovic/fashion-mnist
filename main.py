@@ -42,7 +42,7 @@ dst = cv2.fastNlMeansDenoising(img, None, 50, 7, 21)
 # Tresholding da izdvojimo samo predmete, inverzno jer konture rade za bele objekte na crnoj pozadini
 ret, thresh = cv2.threshold(dst, 240, 255, cv2.THRESH_BINARY_INV)
 
-# probao nesto go kurac
+# probao nesto ne radi
 kernel = np.ones((3, 3), np.uint8)
 dilation = cv2.dilate(thresh, kernel,iterations = 1)
 
