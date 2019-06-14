@@ -32,7 +32,7 @@ x_test = x_test.reshape(10000, 28, 28, 1)
 batch_size = 128
 num_classes = 10
 epochs = 25
-data_augmentation = False
+data_augmentation = True
 
 
 # Kreiramo model

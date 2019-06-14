@@ -18,7 +18,7 @@ img = cv2.imread('tests/{}.png'.format(tp_idx), cv2.IMREAD_GRAYSCALE)
 # Ne menjati fajl van ove sekcije.
 
 # Ucitavamo model
-model = keras.models.load_model('fashion_dataaug_1.h5')
+model = keras.models.load_model('models/fashion_dataaug_1.h5')
 
 # Solution konvertujemo u RGB da bi mogli da pišemo crveni tekst i crtamo plave boxove
 solution = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
