@@ -1,3 +1,5 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 # Fashion MNIST On Steroids
 
 This was the second project for the Machine Learning course on  [Faculty Of Computer Science](https://raf.edu.rs/).
